@@ -12,6 +12,8 @@
 		FFDD8C2524A4866B00168F93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFDD8C2324A4866B00168F93 /* Main.storyboard */; };
 		FFDD8C2724A4866D00168F93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFDD8C2624A4866D00168F93 /* Assets.xcassets */; };
 		FFDD8C2A24A4866D00168F93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFDD8C2824A4866D00168F93 /* LaunchScreen.storyboard */; };
+		FFDD8C3224A486F500168F93 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDD8C3124A486F500168F93 /* SearchResultsViewController.swift */; };
+		FFDD8C3424A4883900168F93 /* SearchResultsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDD8C3324A4883900168F93 /* SearchResultsViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		FFDD8C2624A4866D00168F93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFDD8C2924A4866D00168F93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFDD8C2B24A4866D00168F93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFDD8C3124A486F500168F93 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
+		FFDD8C3324A4883900168F93 /* SearchResultsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				FFDD8C1F24A4866B00168F93 /* AppDelegate.swift */,
+				FFDD8C3124A486F500168F93 /* SearchResultsViewController.swift */,
+				FFDD8C3324A4883900168F93 /* SearchResultsViewCell.swift */,
 				FFDD8C2124A4866B00168F93 /* ViewController.swift */,
 				FFDD8C2324A4866B00168F93 /* Main.storyboard */,
 				FFDD8C2624A4866D00168F93 /* Assets.xcassets */,
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFDD8C2224A4866B00168F93 /* ViewController.swift in Sources */,
+				FFDD8C3424A4883900168F93 /* SearchResultsViewCell.swift in Sources */,
 				FFDD8C2024A4866B00168F93 /* AppDelegate.swift in Sources */,
+				FFDD8C3224A486F500168F93 /* SearchResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
